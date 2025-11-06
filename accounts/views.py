@@ -8,3 +8,6 @@ def login(request):
 
 def register(request):
     return render(request, 'register.html')
+
+def palmeirasNaoTemMundial(request):
+    return render(request, 'palmeirasNaoTemMundial.html')
